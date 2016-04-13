@@ -42,7 +42,8 @@
             <script>
                 document.getElementById("openCustomCameraBtn").addEventListener("click", function(){
                                                                                 igencamera.getPicture(function(imagePath){
-                                                                                                        document.getElementById("photoImg").setAttribute("src", imagePath);
+                                                                                                      alert(imagePath);
+                                                                                                       // document.getElementById("photoImg").setAttribute("src", imagePath);
                                                                                                         }, function(){
                                                                                                         alert("Photo cancelled");
                                                                                                         });
