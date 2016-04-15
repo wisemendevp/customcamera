@@ -119,7 +119,7 @@ NSString* const pathstring ;
 // NSArray *arr =   NSUserDefaults.standardUserDefaults().dictionaryRepresentation().values;
  // NSArray *arr = [[[NSUserDefaults standardUserDefaults] dictionaryRepresentation] allKeys];
     
-    UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
+//    UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
 
     
     NSArray* paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
